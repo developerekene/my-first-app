@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Index from "../Routes/Index";
 
 const AppEntry = () => {
   return (
-    <div>App Entry</div>
-  )
-}
+    <div>
+      <Index />
+    </div>
+  );
+};
 
-export default AppEntry
+export default AppEntry;
